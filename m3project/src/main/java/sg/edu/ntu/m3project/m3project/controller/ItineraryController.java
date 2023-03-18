@@ -56,7 +56,7 @@ public class ItineraryController {
         return ResponseEntity.ok().build();
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{userId}")
     public ResponseEntity deleteUserItinerary(){
         return ResponseEntity.ok().build();
     }
@@ -67,4 +67,3 @@ public class ItineraryController {
     }
 
 }
-
